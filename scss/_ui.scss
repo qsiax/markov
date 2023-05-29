@@ -1,0 +1,20 @@
+$main-color: #fff;
+$primary-color: #537EE7;
+$text: #181818;
+$transition: all .5s ease;
+$font: 'Inter', sans-serif;
+
+.full {
+    min-height: 100vh;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 97px;
+    text-transform: uppercase;
+    span {
+        color: $primary-color;
+        font-weight: 600;
+    }
+}

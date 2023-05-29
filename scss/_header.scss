@@ -1,0 +1,44 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    &__container {
+        overflow: visible;
+    }
+
+    &__body {
+        margin-top: 52px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        li {
+            margin-right: 100px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        li a {
+            position: relative;
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 29px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__logo {
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 29px;
+        text-transform: uppercase;
+        span {
+            color: $primary-color;
+        }
+    }
+
+}
